@@ -24,9 +24,10 @@ Description: Computationally efficient tools for comparing all pairs of profiles
     See Tvedebrink (2013) <doi:10.1016/j.fsigss.2013.10.142>.
 License: GPL (>= 2) | file LICENSE
 Depends: R (>= 3.3.0)
-Imports: Rsolnp (>= 1.16), multicool (>= 0.1-10), Rcpp (>= 0.12.12),
-        RcppParallel (>= 4.3.20)
-LinkingTo: Rcpp, RcppParallel, RcppProgress
+Imports: Rsolnp (>= 1.16), multicool (>= 0.1-10), Rcpp (>= 1.1.0),
+        RcppParallel (>= 5.1.11.1)
+LinkingTo: Rcpp (>= 1.1.0), RcppParallel (>= 5.1.11.1), RcppProgress
+        (>= 0.4.2)
 SystemRequirements: GNU make
 BugReports: https://github.com/mikldk/DNAtools/issues
 NeedsCompilation: yes
@@ -34,4 +35,4 @@ Encoding: UTF-8
 RoxygenNote: 7.3.3
 Suggests: testthat, testthis, knitr, rmarkdown
 VignetteBuilder: utils, knitr
-Packaged: 2025-12-04 07:50:00 UTC; mikl
+Packaged: 2025-12-04 13:45:32 UTC; mikl
